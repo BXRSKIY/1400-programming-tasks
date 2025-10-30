@@ -1,0 +1,1 @@
+r=float(input());print(4*3.14*r**2)

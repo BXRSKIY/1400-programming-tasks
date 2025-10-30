@@ -1,0 +1,1 @@
+a=float(input());print(6*a**2)

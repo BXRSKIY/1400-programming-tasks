@@ -1,4 +1,1 @@
-v = float(input())
-m = float(input())
-p = m / v
-print(p)
+r=float(input());print(3.14*r**2, 2*3.14*r)

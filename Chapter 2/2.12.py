@@ -1,4 +1,1 @@
-people = int(input())
-area = float(input())
-density = people / area
-print(density)
+a=int(input());print(a**2)
