@@ -1,0 +1,1 @@
+a3=int(input());a2=int(input());a1=int(input());b2=int(input());b1=int(input());s=(a3*100+a2*10+a1)+(b2*10+b1);print(s//100,(s//10)%10,s%10)

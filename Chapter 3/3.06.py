@@ -1,0 +1,1 @@
+s=int(input());print((s-1)//4+1)

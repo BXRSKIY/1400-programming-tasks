@@ -1,0 +1,1 @@
+a2=int(input());a1=int(input());b=int(input());s=(a2*10+a1)+b;print(s//10,s%10)

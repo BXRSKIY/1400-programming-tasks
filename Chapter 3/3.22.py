@@ -1,0 +1,1 @@
+x=int(input());a=x//100;b=x%100;print(b*10+a)

@@ -1,0 +1,1 @@
+k=int(input());pair=(k+1)//2;print(pair)

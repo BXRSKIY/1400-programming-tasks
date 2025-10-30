@@ -1,0 +1,1 @@
+num=int(input());print((num-1)//15+1)

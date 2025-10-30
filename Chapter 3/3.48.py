@@ -1,0 +1,1 @@
+y=float(input());total_minutes=y*2;print(int(total_minutes//60),int(total_minutes%60))

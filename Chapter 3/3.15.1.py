@@ -1,0 +1,1 @@
+n=int(input());per_section=15;per_tier=per_section*8;tier=((n-1)//per_section)%10+1;section=((n-1)//per_section)//10+1;print(section)

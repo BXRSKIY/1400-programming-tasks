@@ -1,0 +1,1 @@
+k=int(input());pair=(k+1)//2;num=10+(pair-1);print(num)

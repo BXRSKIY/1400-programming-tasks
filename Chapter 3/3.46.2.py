@@ -1,0 +1,1 @@
+k=int(input());print(str(101+((k-1)//3))[0])

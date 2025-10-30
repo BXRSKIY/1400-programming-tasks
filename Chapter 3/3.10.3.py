@@ -1,0 +1,1 @@
+k=int(input());d=int(input());print((k+d-1)%7)

@@ -1,0 +1,1 @@
+k=int(input());print(str(10+((k+1)//2-1))[0])

@@ -1,0 +1,1 @@
+h=int(input());m=int(input());s=int(input());angle=h*30+m*0.5+s*(0.5/60);print(angle)
