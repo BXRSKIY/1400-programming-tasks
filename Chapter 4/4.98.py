@@ -1,0 +1,1 @@
+n=int(input());a=int(input());print(1 if sum(range(a,a+n))%2==0 else 0)

@@ -1,0 +1,1 @@
+a=int(input());b=int(input());c=int(input());d=int(input());print(1 if (a%b==c or a%b==d) else 0)

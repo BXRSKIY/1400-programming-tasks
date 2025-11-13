@@ -1,0 +1,8 @@
+n=input().strip()
+a=int(input())
+x=input().strip()
+y=input().strip()
+print(n.count(str(a)))
+print(sum(int(ch) for ch in n if int(ch)>a))
+print(sum(int(ch) for ch in n if int(ch)%2==0))
+print(n.count(x), n.count(y))

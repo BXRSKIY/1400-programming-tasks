@@ -1,0 +1,1 @@
+n=int(input());b=int(input());print(1 if (n//1000)==4 or (n%10)==4 or (n//10)%10==4 or (n//100)%10==4 else 0);print(1 if (n//1000)==b or (n%10)==b or (n//10)%10==b or (n//100)%10==b else 0)

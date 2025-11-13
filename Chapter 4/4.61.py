@@ -1,0 +1,1 @@
+a=float(input());b=float(input());c=float(input());d=b*b-4*a*c;print(2 if d>0 else 1 if d==0 else 0)

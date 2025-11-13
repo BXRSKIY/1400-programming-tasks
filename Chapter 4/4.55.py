@@ -1,0 +1,1 @@
+n=int(input());print(1 if any(d in (2,7) for d in [(n//1000)%10,(n//100)%10,(n//10)%10,n%10]) else 0);print(1 if any(d in (3,6,9) for d in [(n//1000)%10,(n//100)%10,(n//10)%10,n%10]) else 0)

@@ -1,0 +1,1 @@
+n=int(input());s='0'+''.join(str(i) for i in range(1,21));print(int(s[n-1]))

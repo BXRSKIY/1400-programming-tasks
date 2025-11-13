@@ -1,0 +1,1 @@
+a=float(input());b=float(input());m=a; m=b if b>m else m; print(m)

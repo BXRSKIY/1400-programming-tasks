@@ -1,0 +1,1 @@
+a=float(input());b=float(input());c=float(input());print(1 if a==b==c else 0)

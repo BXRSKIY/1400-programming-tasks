@@ -1,0 +1,1 @@
+n=int(input());print(' '.join([str(n)]*n))

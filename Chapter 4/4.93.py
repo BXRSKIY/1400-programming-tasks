@@ -1,0 +1,1 @@
+k=int(input());d=1;wd=(k+d-1)%7;print('выходной' if wd in (6,0) else 'рабочий')

@@ -1,0 +1,1 @@
+m=int(input());k=int(input());names={11:'Валет',12:'Дама',13:'Король',14:'Туз'};suits={1:'Пик',2:'Треф',3:'Бубен',4:'Черв'};v=names.get(k,str(k));print(v,suits[m])

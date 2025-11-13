@@ -1,0 +1,1 @@
+k=int(input());s=''.join(str(i) for i in range(50,251));print(int(s[k-1]))

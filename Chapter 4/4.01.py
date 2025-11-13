@@ -1,0 +1,1 @@
+a=float(input());b=float(input());print('>',a) if a>b else print('<',b)

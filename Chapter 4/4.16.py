@@ -1,0 +1,1 @@
+a=float(input());b=float(input());c=float(input());print(a*a+b*b+c*c)

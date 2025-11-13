@@ -1,0 +1,1 @@
+a=float(input());b=float(input());c=float(input());print('равносторонний' if a==b==c else 'равнобедренный' if a==b or b==c or a==c else 'обычный')

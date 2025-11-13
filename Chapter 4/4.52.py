@@ -1,0 +1,1 @@
+n=int(input());print(1 if (n//100)%10==6 or n%10==6 or n//10%10==6 else 0)

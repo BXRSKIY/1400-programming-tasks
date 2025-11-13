@@ -1,0 +1,1 @@
+n=int(input());print(1 if (n//100)%10 in (4,7) or (n//10)%10 in (4,7) or n%10 in (4,7) else 0);print(1 if any(d in (3,6,9) for d in [(n//100)%10,(n//10)%10,n%10]) else 0)
