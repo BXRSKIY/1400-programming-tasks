@@ -1,0 +1,21 @@
+def main():
+    data = []
+    for _ in range(12):
+        row = list(map(float, input().split()))
+        if len(row) != 3:
+            raise ValueError("Каждому работнику должны соответствовать 3 значения")
+        data.append(row)
+    # а) средняя по каждому работнику
+    for i, row in enumerate(data, start=1):
+        print(f"worker_{i}_avg {sum(row)/3.0}")
+    # б) средняя по каждому месяцу
+    month_sums = [0.0]*3
+    for row in data:
+        for j in range(3):
+            month_sums[j] += row[j]
+    for j in range(3):
+        print(month_sums[j] / 12.0)
+
+
+if __name__ == "__main__":
+    main()
