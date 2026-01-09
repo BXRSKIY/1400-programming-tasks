@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];print(min(nums[i]+nums[i+1]+nums[i+2] for i in range(18)))

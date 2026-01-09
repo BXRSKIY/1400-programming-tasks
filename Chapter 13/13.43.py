@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];i,j=nums.index(min(nums)),nums.index(max(nums));nums[i],nums[j]=nums[j],nums[i];[print(x) for x in nums]

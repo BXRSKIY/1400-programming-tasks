@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];m=max(nums);print(nums.count(m))

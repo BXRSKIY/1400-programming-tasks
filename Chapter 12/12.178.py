@@ -1,0 +1,1 @@
+w=input().split(' ');w[0],w[-1]=w[-1],w[0];print(' '.join(w))

@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];print(sum(1 for x in nums if x>0))

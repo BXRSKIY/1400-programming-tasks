@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];pos=[x for x in nums if x>0];print(min(pos) if pos else 0)

@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];print('да' if all(nums[i]*nums[i-1]<0 for i in range(1,20)) else 'нет')

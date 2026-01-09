@@ -1,0 +1,1 @@
+a=input();b=input();B=set(b);print(' '.join('да' if c in B else 'нет' for c in a))

@@ -1,0 +1,1 @@
+s=input();[print(x) for x in s.split(' ')]

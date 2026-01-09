@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];print(Counter(nums).most_common(1)[0][0])

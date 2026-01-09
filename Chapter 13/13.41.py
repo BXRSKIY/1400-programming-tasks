@@ -1,0 +1,1 @@
+nums=[float(input()) for _ in range(20)];avg=sum(nums)/20;print(sum(1 for x in nums if x>avg))

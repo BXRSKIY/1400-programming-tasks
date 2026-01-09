@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];neg=[x for x in nums if x<0];print(max(neg) if neg else 0)

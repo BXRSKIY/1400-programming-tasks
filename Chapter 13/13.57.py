@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];print(sum(x for i,x in enumerate(nums,1) if i%2==1))

@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];[print(0 if x<0 else x) for x in nums]

@@ -1,0 +1,1 @@
+s=input().split(' ');print(sum(x.startswith('н') for x in s));print(sum(x.endswith('р') for x in s))

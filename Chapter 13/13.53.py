@@ -1,0 +1,1 @@
+nums=sorted(set(int(input()) for _ in range(20)),reverse=True);print(nums[1] if len(nums)>1 else nums[0])

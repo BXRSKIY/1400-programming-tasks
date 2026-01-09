@@ -1,0 +1,1 @@
+s=input().split(' ');print(min(len(x) for x in s))

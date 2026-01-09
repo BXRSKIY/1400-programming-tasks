@@ -1,0 +1,1 @@
+a=input();b=input();c=input();print(' '.join(sorted(set(a)&set(b)&set(c))))

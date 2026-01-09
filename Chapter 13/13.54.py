@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];[print((nums[i-1] if i>0 else 0)+(nums[i+1] if i<19 else 0)) for i in range(20)]

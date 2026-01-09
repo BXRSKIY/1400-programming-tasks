@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];print('да' if nums==sorted(nums) else 'нет')

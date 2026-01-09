@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];nums=nums[1:]+[nums[0]];[print(x) for x in nums]

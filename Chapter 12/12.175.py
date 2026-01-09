@@ -1,0 +1,1 @@
+from collections import Counter;a=input();b=input();c=input();d=Counter(a+b+c);print(' '.join(x for x in a+b+c if d[x]==1))

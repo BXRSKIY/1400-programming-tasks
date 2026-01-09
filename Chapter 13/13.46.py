@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];print(sum(nums[nums.index(0)+1:len(nums)-1-nums[::-1].index(0)]) if nums.count(0)>=2 else 0)

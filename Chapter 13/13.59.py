@@ -1,0 +1,1 @@
+nums=[int(input()) for _ in range(20)];print(max(nums[i]+nums[i+1] for i in range(19)))

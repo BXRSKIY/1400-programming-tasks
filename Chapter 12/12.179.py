@@ -1,0 +1,1 @@
+s=input();print(' '.join(x for x in s.split(' ') if x!='привет'))
